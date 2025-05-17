@@ -23,6 +23,7 @@ export const Image = styled.div<IImage>``;
 
 interface IContainer {
   sku: number | string;
+  imageName: string
 }
 export const Container = styled.div<IContainer>`
   position: relative;
@@ -41,8 +42,8 @@ export const Container = styled.div<IContainer>`
     width: 100%;
     height: 270px;
     position: relative;
-    background-image: ${({ sku }) =>
-      `url(${require(`static/products/${sku}-1-product.webp`)})`};
+    background-image: ${({ imageName }) =>
+      `url(${require(`static/products/${imageName}`)})`};
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -65,8 +66,8 @@ export const Container = styled.div<IContainer>`
 
   &:hover {
     ${Image} {
-      background-image: ${({ sku }) =>
-        `url(${require(`static/products/${sku}-2-product.webp`)})`};
+      background-image: ${({ imageName }) =>
+        `url(${require(`static/products/${imageName}`)})`};
     }
 
     ${BuyButton} {
@@ -102,6 +103,12 @@ export const Title = styled.p`
     left: 50%;
     margin-left: -10px;
   }
+`;
+
+export const Description = styled.p`
+  position: relative;
+  padding: 0 20px;
+  height: 45px;
 `;
 
 export const Price = styled.div`

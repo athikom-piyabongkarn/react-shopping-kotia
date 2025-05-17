@@ -10,6 +10,7 @@ export interface IProduct {
   currencyId: string;
   currencyFormat: string;
   isFreeShipping: boolean;
+  imageName: string;
 }
 
 export interface ICartProduct extends IProduct {

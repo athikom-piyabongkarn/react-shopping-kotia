@@ -2,84 +2,114 @@
   "data": {
     "products": [
       {
+        "currencyFormat": "THB",
+        "currencyId": "THB",
         "description": "Classic Americano – like a hug from your favorite barista, but stronger.",
         "id": 0,
+        "sku": 0,
         "isFreeShipping": true,
         "price": 65.00,
         "title": "Americano",
-        "imageName": "americano.png"
+        "imageName": "americano.PNG"
       },
       {
+        "currencyFormat": "THB",
+        "currencyId": "THB",
         "description": "Latte – smooth, milky, and perfect for pretending you're productive.",
         "id": 11,
+        "sku": 11,
         "isFreeShipping": true,
         "price": 65.00,
         "title": "Latte",
-        "imageName": "latte.png"
+        "imageName": "latte.PNG"
       },
       {
+        "currencyFormat": "THB",
+        "currencyId": "THB",
         "description": "Es-Yen – Thailand’s iced coffee rocket fuel. Sweet enough to power a tuk-tuk.",
         "id": 4,
+        "sku": 4,
         "isFreeShipping": false,
         "price": 70.00,
         "title": "Es-Yen",
-        "imageName": "Es-yen.png"
+        "imageName": "Es-yen.PNG"
       },
       {
+        "currencyFormat": "THB",
+        "currencyId": "THB",
         "description": "Espresso-Coconut – because your espresso was craving a tropical vacation.",
         "id": 13,
+        "sku": 13,
         "isFreeShipping": true,
         "price": 75.00,
         "title": "Espresso-Coconut",
-        "imageName": "Espresso-coconut.png"
+        "imageName": "Espresso-coconut.PNG"
       },
       {
+        "currencyFormat": "THB",
+        "currencyId": "THB",
         "description": "Green Tea – for when you want to zen out and still look cool on Instagram.",
         "id": 12,
+        "sku": 12,
         "isFreeShipping": true,
         "price": 65.00,
         "title": "Green-Tea",
-        "imageName": "Green-Tea.png"
+        "imageName": "Green-tea.PNG"
       },
       {
+        "currencyFormat": "THB",
+        "currencyId": "THB",
         "description": "Matcha Clear – green, clean, and more mysterious than your ex.",
         "id": 14,
+        "sku": 14,
         "isFreeShipping": true,
         "price": 9,
         "title": "Matcha-Clear",
-        "imageName": "Matcha-clear.png"
+        "imageName": "Matcha-clear.PNG"
       },
       {
+        "currencyFormat": "THB",
+        "currencyId": "THB",
         "description": "Matcha Latte – like a spa day in a cup. So chill it practically meditates.",
         "id": 15,
+        "sku": 15,
         "isFreeShipping": true,
         "price": 14,
         "title": "Matcha-Latte",
-        "imageName": "Matcha-latte.png"
+        "imageName": "Matcha-latte.PNG"
       },
       {
+        "currencyFormat": "THB",
+        "currencyId": "THB",
         "description": "Mocha – for those who want coffee, but also dessert. Basically a hug with caffeine.",
         "id": 1,
+        "sku": 1,
         "isFreeShipping": true,
         "price": 10.9,
         "title": "Mocha",
-        "imageName": "Mocha.png"
+        "imageName": "Mocha.PNG"
       },
       {
+        "currencyFormat": "THB",
+        "currencyId": "THB",
         "description": "Matcha Orange – citrus meets samurai. It’s weirdly awesome. Like pineapple on pizza.",
         "id": 2,
+        "sku": 2,
         "isFreeShipping": true,
         "price": 14.9,
         "title": "Matcha-Orange",
-        "imageName": "Matcha-Orange.png"
+        "imageName": "Matcha-Orange.PNG"
       },
       {
+        "currencyFormat": "THB",
+        "currencyId": "THB",
         "description": "Espresso-Coconut – so good, we had to put it on the menu twice. You’re welcome.",
         "id": 3,
+        "sku": 3,
         "isFreeShipping": true,
         "price": 14.9,
         "title": "Espresso-Coconut",
-        "imageName": "Espresso-coconut.png"
+        "imageName": "Espresso-coconut.PNG"
       }
     ]
   }

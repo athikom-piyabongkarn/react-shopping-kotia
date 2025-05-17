@@ -18,9 +18,11 @@ const Product = ({ product }: IProps) => {
     title,
     price,
     installments,
+    description,
     currencyId,
     currencyFormat,
     isFreeShipping,
+    imageName
   } = product;
 
   const formattedPrice = formatPrice(price, currencyId);
@@ -53,10 +55,11 @@ const Product = ({ product }: IProps) => {
   };
 
   return (
-    <S.Container onKeyUp={handleAddProductWhenEnter} sku={sku} tabIndex={1}>
-      {isFreeShipping && <S.Stopper>Free shipping</S.Stopper>}
+    <S.Container onKeyUp={handleAddProductWhenEnter} sku={sku} imageName={imageName} tabIndex={1}>
+      {/* {isFreeShipping && <S.Stopper>Free shipping</S.Stopper>} */}
       <S.Image alt={title} />
       <S.Title>{title}</S.Title>
+      <S.Description>{description}</S.Description>
       <S.Price>
         <S.Val>
           <small>{currencyFormat}</small>
