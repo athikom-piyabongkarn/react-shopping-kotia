@@ -9,7 +9,7 @@
         "sku": 0,
         "isFreeShipping": true,
         "price": 65.00,
-        "title": "Americano",
+        "title": "Americano - อเมริกาโน่",
         "imageName": "americano.PNG"
       },
       {
@@ -20,7 +20,7 @@
         "sku": 11,
         "isFreeShipping": true,
         "price": 65.00,
-        "title": "Latte",
+        "title": "Latte - ลาเต้",
         "imageName": "latte.PNG"
       },
       {
@@ -31,7 +31,7 @@
         "sku": 4,
         "isFreeShipping": false,
         "price": 70.00,
-        "title": "Es-Yen",
+        "title": "Es-Yen - เอสเพรสโซ่เย็น",
         "imageName": "Es-yen.PNG"
       },
       {
@@ -42,7 +42,7 @@
         "sku": 13,
         "isFreeShipping": true,
         "price": 75.00,
-        "title": "Espresso-Coconut",
+        "title": "Espresso-Coconut - เอสเพรสโซ่มะพร้าว",
         "imageName": "Espresso-coconut.PNG"
       },
       {
@@ -53,7 +53,7 @@
         "sku": 12,
         "isFreeShipping": true,
         "price": 65.00,
-        "title": "Green-Tea",
+        "title": "Green-Tea - ชาเขียว",
         "imageName": "Green-tea.PNG"
       },
       {
@@ -64,7 +64,7 @@
         "sku": 14,
         "isFreeShipping": true,
         "price": 9,
-        "title": "Matcha-Clear",
+        "title": "Matcha-Clear - มัทฉะใส",
         "imageName": "Matcha-clear.PNG"
       },
       {
@@ -75,7 +75,7 @@
         "sku": 15,
         "isFreeShipping": true,
         "price": 14,
-        "title": "Matcha-Latte",
+        "title": "Matcha-Latte - มัทฉะนม",
         "imageName": "Matcha-latte.PNG"
       },
       {
@@ -86,7 +86,7 @@
         "sku": 1,
         "isFreeShipping": true,
         "price": 10.9,
-        "title": "Mocha",
+        "title": "Mocha - ม็อคค่า",
         "imageName": "Mocha.PNG"
       },
       {
@@ -97,19 +97,8 @@
         "sku": 2,
         "isFreeShipping": true,
         "price": 14.9,
-        "title": "Matcha-Orange",
+        "title": "Matcha-Orange - มัทฉะส้ม",
         "imageName": "Matcha-Orange.PNG"
-      },
-      {
-        "currencyFormat": "THB",
-        "currencyId": "THB",
-        "description": "Espresso-Coconut – so good, we had to put it on the menu twice. You’re welcome.",
-        "id": 3,
-        "sku": 3,
-        "isFreeShipping": true,
-        "price": 14.9,
-        "title": "Espresso-Coconut",
-        "imageName": "Espresso-coconut.PNG"
       }
     ]
   }

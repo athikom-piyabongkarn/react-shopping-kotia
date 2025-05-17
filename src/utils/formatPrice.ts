@@ -1,9 +1,10 @@
-const formatPrice = (price: number, currencyId: string): string => {
+const formatPrice = (price: number, currencyId: string, isUpSize: boolean = false): string => {
+  var calculatedPrice = isUpSize ? price + 10 : price
   switch (currencyId) {
     case 'BRL':
-      return price.toFixed(2).replace('.', ',');
+      return calculatedPrice.toFixed(2).replace('.', ',');
     default:
-      return price.toFixed(2);
+      return calculatedPrice.toFixed(2);
   }
 };
 
