@@ -21,20 +21,20 @@ function App() {
   return (
     <S.Container>
       {isFetching && <Loader />}
-      <GithubCorner />
-      <Recruiter />
-      <S.TwoColumnGrid>
-        <S.Side>
+      {/* <GithubCorner /> */}
+      {/* <Recruiter /> */}
+      {/* <S.TwoColumnGrid> */}
+        {/* <S.Side>
           <Filter />
           <GithubStarButton />
-        </S.Side>
+        </S.Side> */}
         <S.Main>
           <S.MainHeader>
-            <p>{products?.length} Product(s) found</p>
+            <p>KOTIA CAFE</p>
           </S.MainHeader>
           <Products products={products} />
         </S.Main>
-      </S.TwoColumnGrid>
+      {/* </S.TwoColumnGrid> */}
       <Cart />
     </S.Container>
   );
